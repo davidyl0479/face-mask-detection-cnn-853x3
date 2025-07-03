@@ -1,0 +1,91 @@
+{
+  "accuracy": 0.5116279069767442,
+  "macro_precision": 0.40791245791245795,
+  "macro_recall": 0.48174603174603176,
+  "macro_f1": 0.39967793880837355,
+  "weighted_precision": 0.702020202020202,
+  "weighted_recall": 0.5116279069767442,
+  "weighted_f1": 0.570273003033367,
+  "confusion_matrix": [
+    [
+      37,
+      28,
+      5
+    ],
+    [
+      6,
+      5,
+      1
+    ],
+    [
+      2,
+      0,
+      2
+    ]
+  ],
+  "classification_report": {
+    "with_mask": {
+      "precision": 0.8222222222222222,
+      "recall": 0.5285714285714286,
+      "f1-score": 0.6434782608695652,
+      "support": 70.0
+    },
+    "without_mask": {
+      "precision": 0.15151515151515152,
+      "recall": 0.4166666666666667,
+      "f1-score": 0.2222222222222222,
+      "support": 12.0
+    },
+    "mask_weared_incorrect": {
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1-score": 0.3333333333333333,
+      "support": 4.0
+    },
+    "accuracy": 0.5116279069767442,
+    "macro avg": {
+      "precision": 0.40791245791245795,
+      "recall": 0.48174603174603176,
+      "f1-score": 0.39967793880837355,
+      "support": 86.0
+    },
+    "weighted avg": {
+      "precision": 0.702020202020202,
+      "recall": 0.5116279069767442,
+      "f1-score": 0.570273003033367,
+      "support": 86.0
+    }
+  },
+  "per_class_metrics": {
+    "with_mask": {
+      "precision": 0.8222222222222222,
+      "recall": 0.5285714285714286,
+      "f1_score": 0.6434782608695652,
+      "support": 70
+    },
+    "without_mask": {
+      "precision": 0.15151515151515152,
+      "recall": 0.4166666666666667,
+      "f1_score": 0.2222222222222222,
+      "support": 12
+    },
+    "mask_weared_incorrect": {
+      "precision": 0.25,
+      "recall": 0.5,
+      "f1_score": 0.3333333333333333,
+      "support": 4
+    }
+  },
+  "roc_auc_with_mask": 0.5482142857142858,
+  "roc_auc_without_mask": 0.518018018018018,
+  "roc_auc_mask_weared_incorrect": 0.7012195121951219,
+  "roc_auc_macro": 0.5891506053091419,
+  "roc_auc_weighted": 0.5511173751743803,
+  "model_info": {
+    "model_name": "basic_cnn",
+    "model_params": {},
+    "epoch": 20,
+    "metrics": {}
+  },
+  "evaluation_timestamp": 1751221788.7721395
+}
